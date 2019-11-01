@@ -42,7 +42,11 @@ def naming_system
          :sub_category => {
            :label => {},
            :sub_category => {
-             :label => "Genus"
+             :label => "Genus",
+             :sub_category => {
+               :label => "Species",
+               :sub_category =>{}
+             }
            }
          }
      }
