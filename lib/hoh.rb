@@ -30,7 +30,27 @@
 #   sub_category: nil
 # }
 
-def naming_system
+def naming_system 
+  {
+    
+   :sub_category => {
+     :label => "Phylum",
+     :sub_category => {
+       :label => "Class",
+       :sub_category => {
+         :label => "Order",
+         :sub_category => {
+           :label => {},
+           :sub_category => {
+             :label => "Genus"
+           }
+         }
+     }
+   }
+  
+  }
+  }
+  
   # Remember:
   #  Kingdom
   #  Phylum
