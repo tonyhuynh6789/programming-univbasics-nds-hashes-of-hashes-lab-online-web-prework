@@ -46,7 +46,7 @@ def naming_system
              :sub_category => {
                :label => "Species",
                :sub_category => nil
-             } 
+             
                  
                }
              }
@@ -56,7 +56,7 @@ def naming_system
    }
   
   }
-  }
+  
   
   # Remember:
   #  Kingdom
